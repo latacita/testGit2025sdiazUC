@@ -9,3 +9,7 @@
  (01)   Clonar repo
  (02)   Escribir en bitacora.txt
  (03)   Commit "Paso 03"
+ (09)   Checkout "RamaB"
+ (10)   Escribir en direccion.txt
+ (11)   Escribir en bitacora.txt
+        y Commit "Paso 11"
