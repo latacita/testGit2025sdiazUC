@@ -29,3 +29,15 @@
                                      específico para el merge
  (15)   Escribir en bitacora.txt
         y Commit "Paso 15"
+ (16)   Nueva rama "RamaC"
+ (17)   Checkout "RamaC"
+ (18)   Escribir en direccion.txt
+ (19)   Nueva rama "RamaD" y         La rama no existía, por lo que
+        sincronizar con el repo      se ha pusheado con el flag -u
+                                     para sincronizarla
+ (20)   Crear calificacion.txt
+        y escribir en él
+ (21)   Commit "Paso 21"
+ (22)   Checkout "RamaC"
+ (23)   Escribir en bitacora.txt
+        y Commit "Paso 23"
