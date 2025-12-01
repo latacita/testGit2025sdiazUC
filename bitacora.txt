@@ -19,3 +19,13 @@
  (10)   Escribir en direccion.txt
  (11)   Escribir en bitacora.txt
         y Commit "Paso 11"
+ (12)   Checkout "master"
+ (13)   Merge "RamaA -> master"      El merge ha sido fast-forward;
+                                     esto se puede ver en el mensaje
+                                     de resolución del comando
+ (14)   Merge "RamaB -> master"      El merge ha sido recursivo;
+                                     esto se puede ver en el hecho
+                                     de que hay un nuevo commit
+                                     específico para el merge
+ (15)   Escribir en bitacora.txt
+        y Commit "Paso 15"
