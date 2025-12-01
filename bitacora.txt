@@ -9,3 +9,9 @@
  (01)   Clonar repo
  (02)   Escribir en bitacora.txt
  (03)   Commit "Paso 03"
+ (04)   Nueva rama "RamaA"
+ (05)   Nueva rama "RamaB"
+ (06)   Checkout "RamaA"
+ (07)   Escribir en direccion.txt
+ (08)   Escribir en bitacora.txt
+        y Commit "Paso 08"
