@@ -22,11 +22,12 @@
  (12)   Checkout "master"
  (13)   Merge "RamaA -> master"      El merge ha sido fast-forward;
                                      esto se puede ver en el mensaje
-                                     de resolución del comando
+                                     de resolución del comando.
  (14)   Merge "RamaB -> master"      El merge ha sido recursivo;
                                      esto se puede ver en el hecho
                                      de que hay un nuevo commit
-                                     específico para el merge
+                                     específico para el merge.
+                                     Se han resuelto conflictos.
  (15)   Escribir en bitacora.txt
         y Commit "Paso 15"
  (16)   Nueva rama "RamaC"
@@ -34,10 +35,21 @@
  (18)   Escribir en direccion.txt
  (19)   Nueva rama "RamaD" y         La rama no existía, por lo que
         sincronizar con el repo      se ha pusheado con el flag -u
-                                     para sincronizarla
+                                     para sincronizarla.
  (20)   Crear calificacion.txt
         y escribir en él
  (21)   Commit "Paso 21"
  (22)   Checkout "RamaC"
  (23)   Escribir en bitacora.txt
         y Commit "Paso 23"
+ (24)   Checkout "master"
+ (25)   -                            El merge en este momento habría
+                                     sido fast-forward.
+ (26)   Merge "RamaD -> master"      El merge ha sido fast-forward.
+ (27)   Merge "RamaC -> master"      El merge ha sido recursivo y
+                                     sin conflictos.
+ (28)   Tag "Conseguido"             El tag está sobre el commit
+                                     "Merge branch 'RamaC'"
+ (29)   Escribir en bitacora.txt
+        y Commit "Paso 29"                
+
